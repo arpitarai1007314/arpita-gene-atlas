@@ -6,6 +6,7 @@ import {
   Dna,
   FlaskConical,
   Laptop,
+  Mail,
   MessageCircle,
   Microscope,
   Sparkles,
@@ -276,15 +277,16 @@ function Index() {
                   science and technology.
                 </p>
               </div>
-              <div className="grid gap-6 border-t border-primary-foreground/20 pt-6 sm:grid-cols-2 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+              <div className="grid justify-items-start gap-5 border-t border-primary-foreground/20 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
                 <div>
                   <p className="text-sm font-medium text-primary-foreground/70">Email</p>
-                  <p className="mt-2 break-words font-display text-xl">arpitarai1007@gmail.com</p>
+                  <p className="mt-2 break-words font-display text-xl">arpita.26bbin0314@jecrc.edu.in</p>
                 </div>
-                <div>
-                  <p className="text-sm font-medium text-primary-foreground/70">CONTACT  </p>
-                  <p className="mt-2 break-words font-display text-xl">{"\n"}</p>
-                </div>
+                <Button asChild variant="secondary" size="lg">
+                  <a href="mailto:arpita.26bbin0314@jecrc.edu.in">
+                    <Mail aria-hidden="true" /> Email Arpita
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
