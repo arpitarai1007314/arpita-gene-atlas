@@ -279,11 +279,11 @@ function Index() {
               <div className="grid gap-6 border-t border-primary-foreground/20 pt-6 sm:grid-cols-2 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
                 <div>
                   <p className="text-sm font-medium text-primary-foreground/70">Email</p>
-                  <p className="mt-2 break-words font-display text-xl">Add your email address</p>
+                  <p className="mt-2 break-words font-display text-xl">arpitarai1007@gmail.com</p>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-primary-foreground/70">LinkedIn</p>
-                  <p className="mt-2 break-words font-display text-xl">Add your profile link</p>
+                  <p className="text-sm font-medium text-primary-foreground/70">CONTACT  </p>
+                  <p className="mt-2 break-words font-display text-xl">{"\n"}</p>
                 </div>
               </div>
             </div>
